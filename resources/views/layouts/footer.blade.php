@@ -152,6 +152,6 @@
                 <a href="#"><img src="{{asset('frontend/static/images/linkedIn.png')}}"></a>
                 <a href="#"><img src="{{asset('frontend/static/images/twitter.png')}}"></a>
             </div>
-            <p>© 2022 enef3. ALL RIGHTS RESERVED.</p>
+            <p>© 2022 OHMTrades. ALL RIGHTS RESERVED.</p>
         </div>
     </footer>
