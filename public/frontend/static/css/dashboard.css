@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: #f3f5f7;
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+}
+
+#search-bar {
+    margin-left: 20px;
+    background-color: #ffffff;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+
+}
+
+
+#search-bar img {
+    width: 25px;
+}
+
+
+
+#top-profile img {
+    width: 50px;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+
+
+input::placeholder {
+    color: #bdc0d2;
+}
+
+.content {
+    background-color: #ffffff;
+    max-width: 1100px;
+    margin-left: 120px;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#dashboard-invest {
+    background-image: url('../images/invest-bg.png');
+    height: 200px;
+    height: 150px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    color: #ffffff;
+
+}
+
+#invest-btn {
+    background-color: #951cf3;
+    border: none;
+}
+
+#invest-btn img {
+    height: 20px;
+}
+
+#myChart {
+    background-image: linear-gradient(to right, rgb(53, 9, 83), rgb(14, 11, 29));
+
+}
+
+#bar-chart {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #f3f5f7;
+    margin-bottom: 50px;
+
+}
+
+#choose-plan {
+    background-color: #f3f5f7;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.invest-grade-card img {
+    width: 60px;
+    height: 60px;
+
+
+}
+
+.invest-grade-card {
+    background-image: linear-gradient(to right, rgb(199, 88, 140), rgb(149, 27, 242));
+    padding: 15px;
+    color: #ffffff;
+    border-radius: 20px;
+    margin: 15px 0 15px 0;
+}
+
+#rule {
+    border: 1px solid #bdc0d2;
+}
+
+#deposit p {
+    color: #951cf3;
+
+}
+
+hr {
+    border: 2px solid #9000ff;
+
+}
+
+#continue {
+    background-color: #9000ff;
+    border: none;
+}
+
+.line-chart {
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #fff1e9;
+    margin-bottom: 50px;
+}
+
+#see-all {
+    color: #9000ff;
+    text-decoration: none;
+
+}
+
+#see-all p {
+    padding-top: 10px;
+}
+
+#see-all img {
+    height: 30px;
+}
+
+tbody td,
+th {
+    border: none;
+}
+
+thead {
+    background-color: #f3f5f7;
+    color: #aaadc4;
+
+
+}
+
+table th:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+table th:last-child {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.side-bar {
+    position: fixed;
+    top: 120px;
+    left: 30px;
+    height: 90vh;
+    background-color: #f3f5f7;
+    padding: 0 15px 0 15px;
+    width: 30px;
+    transition: width 1s;
+    border-radius: 12px;
+
+}
+
+.side-bar:hover {
+    width: 200px;
+
+
+}
+
+.side-bar img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.side-bar p {
+    font-size: 0;
+    transition: opacity 1s, font-size 1s;
+    opacity: 0;
+}
+
+.side-bar:hover p {
+    font-size: 15px;
+    opacity: 1;
+
+}
+
+
+
+@media screen and (max-width:500px) {
+    #top-profile {
+        display: none;
+    }
+
+    #invest-btn {
+        padding: 0px 10px 0px 10px;
+    }
+
+    #myChart {
+        height: 400px;
+        width: auto;
+
+    }
+
+    #dashboard-invest {}
+}

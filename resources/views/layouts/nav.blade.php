@@ -1,4 +1,48 @@
-<header id="header" class="onepage-header" data-spy="affix" data-offset-top="197">
+<div id="preloader"></div>
+
+<header class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-md">
+        <div class="navbar-brand align-items-center" id="logo">
+            <img src="{{asset($settings['logo']) }}" width="100" height="50" class="w-50 me-3">
+            <p>{{$settings['site_name']}}</p>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                aria-control="main-nav" aria-expanded="false" aria-label="Toggle Nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end align-items-center" id="main-nav">
+            <ul class="navbar-nav">
+                <li class="nav-item h6"><a class="nav-link" href="#logo">Home</a></li>
+                <li class="nav-item h6"><a class="nav-link" href="#content-about-us">About</a></li>
+                <li class="nav-item h6"><a class="nav-link" href="#content-our-pool">Our Pool</a></li>
+                <li class="nav-item h6"><a class="nav-link" href="#content-our-services">Services</a></li>
+                <li class="nav-item h6"><a class="nav-link" href="#content-contact-us">Contact Us</a></li>
+                <li class="nav-item h6"><a class="nav-link px-4" href=""
+                                           class="btn btn-outline-primary px-4">Sign
+                        Up</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<header id="header" class="onepage-header" data-spy="affix" data-offset-top="197">
     <div class="container">
         <div class="row scroll-hide">
             <div class="header-top-bar">
@@ -26,13 +70,14 @@
                 </div>
             </div>
         </div>
-        <!--/*end row top bar*/-->
+        /*end row top bar*/
 
         <div class="row">
             <div class="header-main-bar">
                 <div class="col-md-2 col-xs-12">
                     <div class="logo">
-                        <a class="visible-sec" href="{{url('/')}}" title="{{$settings['site_name']}}"> <img  alt="{{$settings['site_name']}}" src="{{asset($settings['logo']) }}"> </a>
+                        <a class="visible-sec" href="{{url('/')}}" title="{{$settings['site_name']}}"> <img 
+alt="{{$settings['site_name']}}" src="{{asset($settings['logo']) }}"> </a>
                         <div class="hidden-sec slim-wrap" data-image="{{$settings['site_name']}}" data-homelink="{{url('/')}}" data-imagealt="{{$settings['site_name']}}">
                             <ul id="menu-one-page-menu" class="slimmenu">
                                 <li id="menu-item-62" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62 active active-page"><a href="{{url('/')}}">Home</a></li>
@@ -104,7 +149,7 @@
 
 
 
-<!--<style>
+<style>
 
 
 

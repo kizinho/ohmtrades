@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: #f3f5f7;
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+}
+
+#search-bar {
+    margin-left: 20px;
+    background-color: #ffffff;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+
+}
+
+
+#search-bar img {
+    width: 25px;
+}
+
+
+
+#top-profile img {
+    width: 50px;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+
+
+input::placeholder {
+    color: #bdc0d2;
+}
+
+.content {
+    background-color: #ffffff;
+    max-width: 1100px;
+    margin-left: 120px;
+    margin-right: auto;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+#regualr {
+    background-image: url("../images/plan-bg.png");
+    height: 250px;
+    border-radius: 20px;
+    padding: 20px;
+    color: #ffffff;
+    background-size: cover;
+}
+
+#pro,
+#pro-plus {
+    border: 1px solid #A0A3BD;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+
+}
+
+#purchase-btn-first {
+    background-color: #951cf3;
+    color: #ffffff;
+}
+
+#purchase-btn {
+    background-color: #f4e6fe;
+    color: #951cf3;
+}
+
+#monthly-sub {
+    color: #E38651;
+    font-weight: 500;
+}

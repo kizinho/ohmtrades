@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-image: url("../images/upload-details-bg.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+#back-arrow img {
+    width: 30px;
+
+}
+
+#back-arrow {
+    color: #ffffff;
+}
+
+#verify-account {
+    color: #9506F3;
+}
+
+#doc {
+    border: 1px solid;
+    color: #9506F3;
+    margin: 0 10px 0 10px;
+    border-radius: 10px;
+    background-color: #20222F;
+    text-align: center;
+
+}
+
+#upload-img {
+    border: 1px dashed;
+    border-color: #9506F3;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+#upload-img input {
+    display: none;
+}
+
+#upload-img span {
+    color: #9506F3;
+    cursor: pointer;
+}
+
+#upload-img img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+
+
+}
+
+#more {
+    color: #E38651;
+}
+
+#submit {
+    background-color: #9506F3;
+}
+
+@media screen and(max-width:500px) {
+    #doc {
+        display: block;
+    }
+
+    #submit {
+        width: 100%;
+    }
+}

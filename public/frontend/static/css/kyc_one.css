@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-image: url("../images/kyc-background.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    accent-color: #E38651;
+
+}
+
+
+
+header img {
+    width: 60px;
+    height: 60px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.content-holder {
+    max-width: 50%;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-right: auto;
+}
+
+#continue {
+    background-color: #9506F3;
+    border: none;
+}
+
+.selectable {
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width:800px) {
+    .content-holder {
+        max-width: 65%;
+        border-radius: 15px;
+        margin-left: auto;
+        margin-bottom: 50px;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .content-holder {
+        max-width: 90%;
+        border-radius: 15px;
+        margin-left: auto;
+        margin-bottom: 50px;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .content-holder {
+        max-width: 95%;
+        border-radius: 15px;
+        margin-left: auto;
+        margin-bottom: 50px;
+        margin-right: auto;
+    }
+}

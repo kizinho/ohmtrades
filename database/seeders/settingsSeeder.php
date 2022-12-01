@@ -17,16 +17,16 @@ class settingsSeeder extends Seeder {
         $settings->site_email = 'info@cobitfx.com';
         $settings->site_phone = '+19175146371';
         $settings->send_notify_email = 'info@cobitfx.com';
-        $settings->site_name = 'Cobitfx';
+        $settings->site_name = 'OHMTrade';
         $settings->address = '1270 Sixth Avenue, New York, USA.';
         $settings->site_url = 'https://cobitfx.com';
         $settings->site_code = 'DM';
         $settings->logo = 'images/logo/logo.png';
         $settings->withdraw_charge = '0';
         $settings->favicon = 'images/favicon/favicon.png';
-        $settings->location_map = 'Cobitfx';
-        $settings->location = 'Cobitfx';
-        $settings->copy_right = '© 2021 all rights reserved';
+        $settings->location_map = 'OHMTrade';
+        $settings->location = 'OHMTrade';
+        $settings->copy_right = '© 2022 all rights reserved';
         $settings->block_io_pin = '123456';
         $settings->min_withdraw = '0';
         $settings->level_1 = 4.9;
@@ -70,7 +70,7 @@ class settingsSeeder extends Seeder {
 </div>
 <div style="font-size: 14px; margin-left: 20px; margin-right: 20px;"><br></div>
 <div style="margin-left: 20px; margin-right: 20px; margin-bottom: 24px;">
-<p class="size-14" style="margin-top: 0px; margin-bottom: 0px; line-height: 21px;"><font size="3">Thanks,</font><br> <strong style="font-size: 14px;">Cobitfx</strong></p>
+<p class="size-14" style="margin-top: 0px; margin-bottom: 0px; line-height: 21px;"><font size="3">Thanks,</font><br> <strong style="font-size: 14px;">OHMTrade</strong></p>
 </div>
 </td>
 </tr>

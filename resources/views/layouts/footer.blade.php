@@ -141,3 +141,17 @@
     </div>
 </div>-->
 <!-- End Copyright -->
+ <footer class="container d-flex flex-column flex-sm-row">
+        <div class="footer-logo">
+            <img src="{{asset($settings['logo']) }}">
+            <p>OHMTrades</p>
+        </div>
+        <div class="footer-copyright mt-3">
+            <div class="social">
+                <a href="#"><img src="{{asset('frontend/static/images/facebook.png')}}"></a>
+                <a href="#"><img src="{{asset('frontend/static/images/linkedIn.png')}}"></a>
+                <a href="#"><img src="{{asset('frontend/static/images/twitter.png')}}"></a>
+            </div>
+            <p>© 2022 enef3. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
