@@ -79,6 +79,8 @@ header ul li:last-child a {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin-top: auto;
+    margin-bottom: auto;
     font-size: 18px;
     font-weight: 400;
 }
@@ -96,9 +98,6 @@ header ul li:last-child a {
     color: #E38651;
 }
 
-.landing-content h6 {
-    color: #888888;
-}
 
 #buttons {
     display: flex;
@@ -373,7 +372,6 @@ header ul li:last-child a {
 
 .title div {
     flex-basis: 70%;
-
     border-bottom: 1px solid;
     border-color: #A0A3BD;
 
@@ -387,13 +385,11 @@ header ul li:last-child a {
     padding: 50px 30px 50px 30px;
     font-weight: 600;
     background: white;
-
 }
 
 .content .broker-card {
     flex-basis: 20%;
     background: none;
-
 }
 
 .broker-card img {
@@ -464,6 +460,7 @@ footer {
 
 /* Below 1000px */
 @media screen and (max-width: 1000px) {
+
     .landing-content h2 {
         font-size: 30px;
     }
@@ -535,9 +532,12 @@ footer {
 
     .landing img {
         flex-basis: 50%;
-
+        position: absolute;
         object-fit: contain;
-        overflow: hidden;
+        width: 50%;
+        right: 0px;
+        z-index: -1;
+        margin-top: 50px;
 
     }
 
@@ -577,7 +577,7 @@ footer {
         box-sizing: border-box;
         display: flex;
         width: 100%;
-        height: 98vh;
+        height: 50vh;
         padding: 10px 0px 20px 15px;
         color: #ffffff;
         justify-content: space-between;

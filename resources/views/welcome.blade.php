@@ -22,12 +22,12 @@
 
 @section('content')
 <hr class="border-light">
-    <section class="landing">
+     <section class="landing">
         <div class="landing-content">
             <p> <span>#1</span> Web3 investing site in the world</p>
             <h2 class="mb-sm-5 mb-0">More than an <br><span>investment</span> platform</h2>
-            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Dolor aliquam enim donec eget molestie lectus leo tortor, pharetra.</h6>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Dolor aliquam enim donec eget molestie lectus leo tortor, pharetra.</p>
             <div class="btn" id="buttons">
                 <a href="#">
                     <p>Start Investing</p>
@@ -37,7 +37,22 @@
                 </a>
             </div>
         </div>
-        <img class="img-fluid" src="{{ asset("frontend/static/images/wallet-hand.png")}}">
+     <img class="img-fluid" src="{{ asset("frontend/static/images/wallet-hand.png")}}">
+    </section>
+    <img id="tape" src="{{ asset("frontend/static/images/tape.png")}}">
+    <section class="about container mb-lg-5 d-flex flex-sm-row flex-column" id="content-about-us">
+        <div>
+            <h3>What is OHMTrades</h3>
+            <p>Enfthi3 is an online trading academy that has been established to educate people who are underserved by
+                financial institutions globally.
+                We believe that financial literacy is the key difference maker and
+                provides a strong foundation for individuals to take control of their personal economy and work towards
+                a better future. In conjuction with our best in class education. we have built a platform where members
+                are offered a life-altering opportunity.</p>
+        </div>
+        <iframe src="https://youtube.com/embed/1pBuwKwaHp0" class="w-100" title="description"></iframe>
+
+
     </section>
     <img id="tape" src="{{ asset("frontend/static/images/tape.png")}}">
     <section class="about container mb-lg-5 d-flex flex-sm-row flex-column" id="content-about-us">

@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+header {
+    background-color: #f3f5f7;
+    z-index: 5;
+}
+
 
 body {
     background-color: #f3f5f7;
@@ -50,6 +55,12 @@ input::placeholder {
     margin-right: auto;
     padding: 20px;
     border-radius: 15px;
+    position: absolute;
+    width: 100%;
+    margin-top: 120px;
+
+
+
 }
 
 #dashboard-invest {
@@ -181,6 +192,7 @@ table th:last-child {
     width: 30px;
     transition: width 1s;
     border-radius: 12px;
+    z-index: 5;
 
 }
 
