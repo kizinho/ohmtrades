@@ -54,21 +54,7 @@
 
 
     </section>
-    <img id="tape" src="{{ asset("frontend/static/images/tape.png")}}">
-    <section class="about container mb-lg-5 d-flex flex-sm-row flex-column" id="content-about-us">
-        <div>
-            <h3>What is OHMTrades</h3>
-            <p>Enfthi3 is an online trading academy that has been established to educate people who are underserved by
-                financial institutions globally.
-                We believe that financial literacy is the key difference maker and
-                provides a strong foundation for individuals to take control of their personal economy and work towards
-                a better future. In conjuction with our best in class education. we have built a platform where members
-                are offered a life-altering opportunity.</p>
-        </div>
-        <iframe src="https://youtube.com/embed/1pBuwKwaHp0" class="w-100" title="description"></iframe>
-
-
-    </section>
+   
     <section class="core-values" id="content-our-services">
         <div class="core-values-content container">
             <h2 class="text-center">Our Core Values</h2>
